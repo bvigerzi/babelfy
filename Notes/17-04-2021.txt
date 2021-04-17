@@ -1,0 +1,14 @@
+node 14 doesn't really parse commonjs modules properly when using type: "module" in package.json
+solution: use type: "commonjs" and compile the code with babel, babel/env with node 14 target
+
+babel AST parses directives as Directives, separate to the program nodes
+
+Cool node types:
+{} inside JSX -> JSXExpressionContainer
+- has expression Node
+
+Parse Tree: The parse tree is a concrete representation of the input. The parse tree retains all of the information of the input. The empty boxes represent whitespace, i.e. end of line.
+AST: The AST is an abstract representation of the input. Notice that parens are not present in the AST because the associations are derivable from the tree s
+
+NPM scripts: using prefix "pre or post" npm can read as command by default 
+TODO: 

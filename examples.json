@@ -1,0 +1,88 @@
+{
+  type: 'JSXElement',
+  start: 36,
+  end: 55,
+  loc: SourceLocation {
+    start: Position { line: 2, column: 35 },
+    end: Position { line: 2, column: 54 },
+    filename: undefined,
+    identifierName: undefined
+  },
+  range: undefined,
+  leadingComments: undefined,
+  trailingComments: undefined,
+  innerComments: undefined,
+  extra: undefined,
+  openingElement: Node {
+    type: 'JSXOpeningElement',
+    start: 36,
+    end: 41,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      filename: undefined,
+      identifierName: undefined
+    },
+    range: undefined,
+    leadingComments: undefined,
+    trailingComments: undefined,
+    innerComments: undefined,
+    extra: undefined,
+    name: Node {
+      type: 'JSXIdentifier',
+      start: 37,
+      end: 40,
+      loc: [SourceLocation],
+      range: undefined,
+      leadingComments: undefined,
+      trailingComments: undefined,
+      innerComments: undefined,
+      extra: undefined,
+      name: 'div'
+    },
+    attributes: [],
+    selfClosing: false
+  },
+  closingElement: Node {
+    type: 'JSXClosingElement',
+    start: 49,
+    end: 55,
+    loc: SourceLocation {
+      start: [Position],
+      end: [Position],
+      filename: undefined,
+      identifierName: undefined
+    },
+    range: undefined,
+    leadingComments: undefined,
+    trailingComments: undefined,
+    innerComments: undefined,
+    extra: undefined,
+    name: Node {
+      type: 'JSXIdentifier',
+      start: 51,
+      end: 54,
+      loc: [SourceLocation],
+      range: undefined,
+      leadingComments: undefined,
+      trailingComments: undefined,
+      innerComments: undefined,
+      extra: undefined,
+      name: 'div'
+    }
+  },
+  children: [
+    Node {
+      type: 'JSXText',
+      start: 41,
+      end: 49,
+      loc: [SourceLocation],
+      range: undefined,
+      leadingComments: undefined,
+      trailingComments: undefined,
+      innerComments: undefined,
+      extra: [Object],
+      value: ' n World'
+    }
+  ]
+}
